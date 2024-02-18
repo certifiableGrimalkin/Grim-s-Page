@@ -49,21 +49,43 @@
         </script>
     </head>
     <body>
-        <div class="fadeinout" style="position:fixed; width:fit-content;"><h1><a href="index.html"><--</a></h1></div>
-        <div id="sizer" style="height: 100vh; width: 100vw;display: flex; flex-direction: column; align-items: center;">
-            <div>
-                <h1 class="fadeinout"><a href="works/Night Sky.pdf">Night Sky</a></h1>
-                <p class="fadeinout">A short story about stargazing and the gentle supernatural.</p>
-                <h1 class="fadeinout"><a href="works/Moonlight Watcher.pdf">Moonlight Watcher</a></h1>
-                <p class="fadeinout">A bush'es exploratory nightly sightings.</p>
-                <h1 class="fadeinout"><a href="works/Plain.pdf">Plain</a></h1>
-                <p class="fadeinout">A girl experiences the plain, like never before.</p>
-                <h1 class="fadeinout"><a href="works/Fisherman.pdf">Fisherman</a></h1>
-                <p class="fadeinout">A calm scene of a fisherman's life.</p>
-                <h1 class="fadeinout"><a href="works/One-way Ticket.pdf">One-way Ticket</a></h1>
-                <p class="fadeinout">A man wakes up on a train he does not remember.</p>
-                <h1 class="fadeinout"><a href="works/Prices.pdf">Prices</a></h1>
-                <p class="fadeinout">Following along the lines of people, in a bustling city.</p>
+        <div class="fadeinout" style="position: fixed; display: flex; flex-direction: row; width: 100%; background-color: black; z-index: 999;">
+            <h1><a href="index.html"><--</a></h1>
+            <h1><a href="#writings">Writings</a></h1>
+            <h1><a href="#drawings">Drawings</a></h1>
+        </div>
+        <div id="sizer" style="height: 100%; width: 100%;display: flex; flex-direction: column; align-items: center;">
+            <div class="spaced" style="height: 100%; width: 100%;display: flex; flex-direction: column; align-items: center;">
+                <div id="writings">
+                    <h1 class="fadeinout">Writings</h1>
+                    <h2 class="fadeinout"><a href="works/Night Sky.pdf">Night Sky</a></h2>
+                    <p class="fadeinout">A short story about stargazing and the gentle supernatural.</p>
+                    <h2 class="fadeinout"><a href="works/Moonlight Watcher.pdf">Moonlight Watcher</a></h2>
+                    <p class="fadeinout">A bush'es exploratory nightly sightings.</p>
+                    <h2 class="fadeinout"><a href="works/Plain.pdf">Plain</a></h2>
+                    <p class="fadeinout">A girl experiences the plain, like never before.</p>
+                    <h2 class="fadeinout"><a href="works/Fisherman.pdf">Fisherman</a></h2>
+                    <p class="fadeinout">A calm scene of a fisherman's life.</p>
+                    <h2 class="fadeinout"><a href="works/One-way Ticket.pdf">One-way Ticket</a></h2>
+                    <p class="fadeinout">A man wakes up on a train he does not remember.</p>
+                    <h2 class="fadeinout"><a href="works/Prices.pdf">Prices</a></h2>
+                    <p class="fadeinout">Following along the lines of people, in a bustling city.</p>
+                </div>
+                <div id="drawings">
+                    <h1 class="fadeinout">Drawings</h1>
+                    <div class="gallery fadeinout">
+                        <img src="works/drawings/Grim Shadow.gif" alt="Grimalkin in a doorway, with an eldritch shadow." width="600" height="400">
+                        <div class="desc">Grim Shadow</div>
+                    </div>
+                    <div class="gallery fadeinout">
+                        <img src="works/drawings/Hat steal.png" alt="Grimalkin, stealing the hat man's hat." width="600" height="400">
+                        <div class="desc">Hat Steal</div>
+                    </div>
+                    <div class="gallery fadeinout">
+                        <img src="works/drawings/Fish comic WIP - One side done.png" alt="Fishman slamming fish on bar counter.." width="600" height="400">
+                        <div class="desc">Fish Comic WIP</div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

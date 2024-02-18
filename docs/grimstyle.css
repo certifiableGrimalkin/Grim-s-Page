@@ -6,6 +6,8 @@
 body{
     background-color: #1b1010;
     margin: 0%;
+    height: 100%;
+    width: 100%;
 }
 
 a{
@@ -28,11 +30,21 @@ object{
     transition: opacity 1s;
 }
 
+.spaced{
+    margin: 10% 0%;
+}
+
 h1{
     font-weight: bold;
     margin: 2vw;
     margin-bottom: 0%;
     font-size: 4vw;
+}
+h2{
+    font-weight: bold;
+    margin: 2vw;
+    margin-bottom: 0%;
+    font-size: 3vw;
 }
 
 p{
@@ -76,3 +88,24 @@ p{
         
     }
 }
+
+div.gallery {
+    margin: 0.5rem;
+    border: 1px solid #000000;
+    float: left;
+    width: 15vw;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #ff0000;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 1.5em;
+    text-align: center;
+  }
