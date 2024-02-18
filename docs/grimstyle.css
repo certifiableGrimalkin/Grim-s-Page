@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 4vw;
+}
+
+.text{
+    font-weight: bold;
+    margin: 2vw;
+}
+
+.fuzzyeights{
+    animation: fuzzyeights 10s linear;
+    animation-direction: ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fuzzyeights {
+    0%{
+        transform:rotate(0deg)
+                 translate(1vw)
+                 rotate(0deg);
+        filter: blur(0);
+    
+    }
+    50%{
+        transform:rotate(360deg)
+                 translate(1vw)
+                 rotate(-360deg);
+        filter: blur(2px);
+    }
+    100% {
+        transform:rotate(720deg)
+                    translate(1vw)
+                    rotate(-720deg);
+        filter: blur(0);
+        
+    }
+}
