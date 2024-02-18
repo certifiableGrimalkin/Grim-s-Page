@@ -5,25 +5,30 @@
 }
 
 body{
-    background-color: black;
+    background-color: #1b1010;
 }
 
-h1{
-    font-size: 4vw;
-}
 
 .text{
     font-weight: bold;
     margin: 2vw;
+    font-size: 4vw;
 }
 
-.fuzzyeights{
-    animation: fuzzyeights 10s linear;
-    animation-direction: ;
+.fuzzyc{
+    animation: fuzzyc 10s linear;
+    animation-iteration-count: infinite;
+}
+.fuzzyc2{
+    animation: fuzzyc 10s linear -2s;
+    animation-iteration-count: infinite;
+}
+.fuzzyc3{
+    animation: fuzzyc 10s linear -0.5s;
     animation-iteration-count: infinite;
 }
 
-@keyframes fuzzyeights {
+@keyframes fuzzyc {
     0%{
         transform:rotate(0deg)
                  translate(1vw)
@@ -35,7 +40,7 @@ h1{
         transform:rotate(360deg)
                  translate(1vw)
                  rotate(-360deg);
-        filter: blur(2px);
+        filter: blur(0.1em);
     }
     100% {
         transform:rotate(720deg)
