@@ -23,7 +23,7 @@
                 let options = {
                     root: null,
                     rootMargin: "0%",
-                    threshold: 0.1,
+                    threshold: 0.5,
                 };
                 let fadeElement = document.querySelectorAll(".fadeinout");
                 observer = new IntersectionObserver(handleIntersect, options);
@@ -51,9 +51,14 @@
     <body>
         <div class="fadeinout" style="position:fixed; width:fit-content;"><h1><a href="index.html"><--</a></h1></div>
         <div id="sizer" style="height: 100vh; width: 100vw;display: flex; flex-direction: column; justify-content: center; align-items: center;">
-            <div>
-                <p class="fadeinout">I'm just a bean, doing bean things.</p>
-            </div>
+            <h1 class="fadeinout">About Me</h1>
+            <p class="fadeinout">
+                Hejo. I'm certifiableGrimalkin, or Grimalkin. You can call me Grim, for short.
+                I'm a recovering depressed being, working on building back my life.
+                My pronouns are void/it/they/she. I'm mostly agender, of some sort.
+                This site is a reminder of what I've done in the past, and a hopeful look into the future, towards works I want to still do.
+
+            </p>
         </div>
     </body>
 </html>
