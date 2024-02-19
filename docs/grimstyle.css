@@ -125,7 +125,7 @@ div.desc {
 
 .spoiler img {
     vertical-align: bottom;
-    filter: blur(20px) grayscale(100%);
+    filter: blur(20px) grayscale(100%) brightness(25%);
     transition: filter 0.3s;
 }
 
