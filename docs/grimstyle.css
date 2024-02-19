@@ -73,22 +73,32 @@ h4{
 
 @keyframes fuzzyc {
     0%{
-        transform:rotate(0deg)
-                 translate(1vw)
-                 rotate(0deg);
+        transform:rotate(90deg)
+                 translate(0vw)
+                 rotate(-90deg);
         filter: blur(0);
     
     }
-    50%{
-        transform:rotate(360deg)
+    25%{
+        transform:rotate(180deg)
                  translate(1vw)
-                 rotate(-360deg);
+                 rotate(-180deg);
+    }
+    50%{
+        transform:rotate(270deg)
+                 translate(0vw)
+                 rotate(-270deg);
         filter: blur(0.1em);
     }
+    75%{
+        transform:rotate(180deg)
+                 translate(-1vw)
+                 rotate(-180deg);
+    }
     100% {
-        transform:rotate(720deg)
-                    translate(1vw)
-                    rotate(-720deg);
+        transform:rotate(90deg)
+                    translate(0vw)
+                    rotate(-90deg);
         filter: blur(0);
         
     }
