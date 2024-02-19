@@ -15,6 +15,10 @@ a{
     outline: none;
 }
 
+img{
+    outline: none;
+}
+
 a:hover{
     color: pink;
 }
@@ -62,7 +66,8 @@ p{
     animation-iteration-count: infinite;
 }
 .fuzzyc3{
-    animation: fuzzyc 10s linear -0.5s;
+    animation: fuzzyc 10s linear -0.8s;
+    animation-direction: reverse;
     animation-iteration-count: infinite;
 }
 
