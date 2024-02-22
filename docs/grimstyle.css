@@ -186,3 +186,11 @@ div.desc {
 .spoiler:hover .gif-static{
     display: none;
 }
+
+.dep {
+    color: darkred;
+}
+
+.dep *{
+    color: darkred;
+}
