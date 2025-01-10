@@ -109,6 +109,7 @@ div.gallery {
     border: 1px solid #000000;
     float: left;
     width: 15vw;
+    height: 35vh;
 }
 
 div.gallery:hover {
@@ -117,8 +118,10 @@ div.gallery:hover {
 
 div.gallery img {
     width: 100%;
-    height: auto;
+    height: 25vh;
+    object-fit: contain;
 }
+
 
 div.desc {
     font-size: 1vw;
@@ -129,6 +132,7 @@ div.desc {
 .spoiler {
 	overflow: hidden;
 	position: relative;
+    height: 25vh;
 	margin: 0;
 	padding: 0;
 }
@@ -161,6 +165,7 @@ div.desc {
 .spoiler input {
 	width: 0;
 	height: 0;
+    margin: 0;
 }
 
 .spoiler input:checked ~ img {
