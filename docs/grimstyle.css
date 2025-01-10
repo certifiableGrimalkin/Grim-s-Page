@@ -109,7 +109,7 @@ div.gallery {
     border: 1px solid #000000;
     float: left;
     width: 15vw;
-    height: 35vh;
+    height: 20vw;
 }
 
 div.gallery:hover {
@@ -118,7 +118,7 @@ div.gallery:hover {
 
 div.gallery img {
     width: 100%;
-    height: 25vh;
+    height: 15vw;
     object-fit: contain;
 }
 
@@ -132,7 +132,7 @@ div.desc {
 .spoiler {
 	overflow: hidden;
 	position: relative;
-    height: 25vh;
+    height: 15vw;
 	margin: 0;
 	padding: 0;
 }
